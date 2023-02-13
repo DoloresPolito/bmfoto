@@ -5,14 +5,9 @@ import "../App.css";
 import { animated, useSpring, useTransition, config } from "@react-spring/web";
 import useIntersectionObserver from "../hooks/Observer";
 import NewNavbar from "./NewNavbar";
+import belumi from '../assets/belumi/belenmiguens1.-min.jpg'
 
 const realImages = ["/bmfoto/public/images/belenmiguens1.-min.jpg", "/bmfoto/public/images/belenmiguens2.-min.jpg"];
-
-
-// const realImages = ["/bmfoto/assets/images/belenmiguens1.-min.jpg", "/bmfoto/assets/images/belenmiguens2.-min.jpg"];
-// import belumi1 from '../assets/images/belenmiguens1.-min.jpg'
-// import belumi2 from '../assets/images/belenmiguens2.-min.jpg'
-
 
 export default function AboutMe() {
   const triggerRefAbout = useRef();
@@ -29,18 +24,17 @@ export default function AboutMe() {
     },
   });
 
-  console.log("real images", realImages)
 
   const slideStyles = {
     width: "100%",
     height: "100%",
     border: "2px",
-    backgroundColor: "lightgrey",
+    // backgroundColor: "lightgrey",
     borderRadius: "5px",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundImage: `url(${realImages[0]})`,
-    transition: "all 1s",
+    // backgroundPosition: "center",
+    // backgroundSize: "cover",
+    // backgroundImage: `url(${realImages[0]})`,
+    // transition: "all 1s",
   };
 
   const path = window.location.pathname;
@@ -59,7 +53,9 @@ export default function AboutMe() {
       <a id="ancla1"></a>
       <aside className="aboutme-aside">
         <div className="slider-container">
-          <div style={slideStyles}></div>
+          <div >
+          <img   src={belumi} style={slideStyles}/>
+          </div>
         </div>
       </aside>
       <section className="aboutme-section">

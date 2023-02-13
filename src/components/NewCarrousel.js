@@ -4,7 +4,9 @@ import "../App.css";
 
 
 // const realImages = ["/images/belenmiguens1.-min.jpg","/images/belenmiguens2.-min.jpg"]
-const realImages = ["../assets/images/belenmiguens1.-min.jpg", "../assets/images/belenmiguens2.-min.jpg"];
+
+
+const realImages = ["https://raw.github.com/DoloresPolito/bmfoto/images/belenmiguens1.-min.jpg", "https://raw.github.com/DoloresPolito/bmfoto/images/belenmiguens2.-min.jpg"];
 const NewCarrousel = () => {
   const [index, setIndex] = useState(1);
 
@@ -51,7 +53,10 @@ console.log("interval", index)
             top:"120px",
             left:"0",
             // `url(${slides[currentIndex].url})`,
+            // ../assets/belumi/belenmiguens1.-min.jpg
             backgroundImage: `url(${realImages[index]})`,
+            // backgroundImage: `url('/../src/assets/belumi/belenmiguens1.-min.jpg')`,
+            // backgroundImage: "url('/../src/assets/belumi/belenmiguens1.-min.jpg')",
             zIndex: "0"
           }}
           
