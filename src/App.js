@@ -15,11 +15,11 @@ function App() {
     <>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/fotos" element={<Gallery />} />
-          <Route path="/fotos/:name" element={<SinglePicture />} />
-          <Route path="/belumi" element={<AboutMe />} />
-          <Route path="/contacto" element={<ContactForm />} />
+          <Route path="/bmfoto" element={<Home />} />
+          <Route path="/bmfoto/fotos" element={<Gallery />} />
+          <Route path="/bmfoto/fotos/:name" element={<SinglePicture />} />
+          <Route path="/bmfoto/belumi" element={<AboutMe />} />
+          <Route path="/bmfoto/contacto" element={<ContactForm />} />
 
         </Routes>
 
