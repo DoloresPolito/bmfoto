@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bmfoto/static/css/main.f990e6c8.css",
-    "main.js": "/bmfoto/static/js/main.da79315e.js",
+    "main.js": "/bmfoto/static/js/main.2d75f6d1.js",
     "static/js/787.4df2b0bc.chunk.js": "/bmfoto/static/js/787.4df2b0bc.chunk.js",
     "static/media/galeria2-min.jpg": "/bmfoto/static/media/galeria2-min.1efca286c90ac80f20e6.jpg",
     "static/media/sesiones4-min.jpg": "/bmfoto/static/media/sesiones4-min.4fb3e81e6aa86660ce18.jpg",
@@ -24,11 +24,11 @@
     "static/media/corrientes0-min.jpg": "/bmfoto/static/media/corrientes0-min.e277d13d7d6be75f0814.jpg",
     "index.html": "/bmfoto/index.html",
     "main.f990e6c8.css.map": "/bmfoto/static/css/main.f990e6c8.css.map",
-    "main.da79315e.js.map": "/bmfoto/static/js/main.da79315e.js.map",
+    "main.2d75f6d1.js.map": "/bmfoto/static/js/main.2d75f6d1.js.map",
     "787.4df2b0bc.chunk.js.map": "/bmfoto/static/js/787.4df2b0bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f990e6c8.css",
-    "static/js/main.da79315e.js"
+    "static/js/main.2d75f6d1.js"
   ]
 }
