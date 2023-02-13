@@ -71,7 +71,7 @@ const Tabs = ({ mode }) => {
       console.log("2")
       return (
         <TabsBox mode={mode}>
-          <RouterLink className="nav-item" to="/bmfoto">
+          <RouterLink className="nav-item" to="/bmfoto/">
             <p style={{ marginLeft:"1150px"}}>HOME</p>
           </RouterLink>
 
@@ -82,7 +82,7 @@ const Tabs = ({ mode }) => {
       console.log("3")
       return (
         <TabsBox mode={mode}>
-          <RouterLink className="nav-item" to="/bmfoto">
+          <RouterLink className="nav-item" to="/bmfoto/">
             HOME
           </RouterLink>
           <RouterLink className="nav-item" to="/bmfoto/fotos">
