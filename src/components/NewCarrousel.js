@@ -4,9 +4,9 @@ import "../App.css";
 
 
 // const realImages = ["/images/belenmiguens1.-min.jpg","/images/belenmiguens2.-min.jpg"]
+// https://github.com/githubusername/repo_name/blob/master/20160309_212617-1.png?raw=true
 
-
-const realImages = ["https://raw.github.com/DoloresPolito/bmfoto/images/belenmiguens1.-min.jpg", "https://raw.github.com/DoloresPolito/bmfoto/images/belenmiguens2.-min.jpg"];
+const realImages = ["https://github.com/DoloresPolito/bmfoto/blob/main/public/images/belenmiguens1.-min.jpg?raw=true", "https://github.com/DoloresPolito/bmfoto/blob/main/public/images/belenmiguens2.-min.jpg?raw=true"];
 const NewCarrousel = () => {
   const [index, setIndex] = useState(1);
 
