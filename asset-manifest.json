@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/bmfoto/static/css/main.f990e6c8.css",
+    "main.js": "/bmfoto/static/js/main.da79315e.js",
+    "static/js/787.4df2b0bc.chunk.js": "/bmfoto/static/js/787.4df2b0bc.chunk.js",
+    "static/media/galeria2-min.jpg": "/bmfoto/static/media/galeria2-min.1efca286c90ac80f20e6.jpg",
+    "static/media/sesiones4-min.jpg": "/bmfoto/static/media/sesiones4-min.4fb3e81e6aa86660ce18.jpg",
+    "static/media/corrientes4-min.jpg": "/bmfoto/static/media/corrientes4-min.87c9300b2d10788eee5c.jpg",
+    "static/media/sesiones1-min.jpg": "/bmfoto/static/media/sesiones1-min.cc475522fbba6055b006.jpg",
+    "static/media/galeria1-min.jpg": "/bmfoto/static/media/galeria1-min.82c294a6c6110e3930dc.jpg",
+    "static/media/corrientes3-min.jpg": "/bmfoto/static/media/corrientes3-min.5f6f8d2c4fb2341ff1cd.jpg",
+    "static/media/sesiones3-min.jpg": "/bmfoto/static/media/sesiones3-min.849e4fd4f8a332d90098.jpg",
+    "static/media/galeria6-min.jpg": "/bmfoto/static/media/galeria6-min.2ef63863ca0a5c8c8ae0.jpg",
+    "static/media/sesiones2-min.jpg": "/bmfoto/static/media/sesiones2-min.723d3a3d9e07897de461.jpg",
+    "static/media/galeria7-min.jpg": "/bmfoto/static/media/galeria7-min.2acb88d6d8cc2a281f68.jpg",
+    "static/media/sesiones6-min.jpg": "/bmfoto/static/media/sesiones6-min.5ad5f6d6e99a61ee4341.jpg",
+    "static/media/sesiones0-min.jpg": "/bmfoto/static/media/sesiones0-min.ee363b027dbe8ded5adc.jpg",
+    "static/media/sesiones7-min.jpg": "/bmfoto/static/media/sesiones7-min.cbf90e25e911550732df.jpg",
+    "static/media/galeria5-min.JPG": "/bmfoto/static/media/galeria5-min.e38dd2e6538541377adc.JPG",
+    "static/media/corrientes1-min.jpg": "/bmfoto/static/media/corrientes1-min.dab90f87c70ffff6b2b0.jpg",
+    "static/media/galeria4-min.jpg": "/bmfoto/static/media/galeria4-min.89ac51811bff0162e1c5.jpg",
+    "static/media/sesiones5-min.jpg": "/bmfoto/static/media/sesiones5-min.b9f3d4c20332f5e7acaa.jpg",
+    "static/media/corrientes2-min.jpg": "/bmfoto/static/media/corrientes2-min.1ea0de702693b301234f.jpg",
+    "static/media/corrientes0-min.jpg": "/bmfoto/static/media/corrientes0-min.e277d13d7d6be75f0814.jpg",
+    "index.html": "/bmfoto/index.html",
+    "main.f990e6c8.css.map": "/bmfoto/static/css/main.f990e6c8.css.map",
+    "main.da79315e.js.map": "/bmfoto/static/js/main.da79315e.js.map",
+    "787.4df2b0bc.chunk.js.map": "/bmfoto/static/js/787.4df2b0bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f990e6c8.css",
+    "static/js/main.da79315e.js"
+  ]
+}
