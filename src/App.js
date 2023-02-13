@@ -15,7 +15,7 @@ function App() {
     <>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/bmfoto" element={<Home />} />
           <Route path="/fotos" element={<Gallery />} />
           <Route path="/fotos/:name" element={<SinglePicture />} />
           <Route path="/belumi" element={<AboutMe />} />
