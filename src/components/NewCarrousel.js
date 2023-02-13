@@ -3,8 +3,8 @@ import { useTransition, animated} from "react-spring";
 import "../App.css";
 
 
-const realImages = ["/images/belenmiguens1.-min.jpg","/images/belenmiguens2.-min.jpg"]
-
+// const realImages = ["/images/belenmiguens1.-min.jpg","/images/belenmiguens2.-min.jpg"]
+const realImages = ["../assets/images/belenmiguens1.-min.jpg", "../assets/images/belenmiguens2.-min.jpg"];
 const NewCarrousel = () => {
   const [index, setIndex] = useState(1);
 

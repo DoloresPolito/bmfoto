@@ -6,8 +6,10 @@ import { animated, useSpring, useTransition, config } from "@react-spring/web";
 import useIntersectionObserver from "../hooks/Observer";
 import NewNavbar from "./NewNavbar";
 
-const realImages = ["/bmfoto/images/belenmiguens1.-min.jpg", "/bmfoto/images/belenmiguens2.-min.jpg"];
+// const realImages = ["/bmfoto/images/belenmiguens1.-min.jpg", "/bmfoto/images/belenmiguens2.-min.jpg"];
 
+
+const realImages = ["../assets/images/belenmiguens1.-min.jpg", "../assets/images/belenmiguens2.-min.jpg"];
 // import belumi1 from '../assets/images/belenmiguens1.-min.jpg'
 // import belumi2 from '../assets/images/belenmiguens2.-min.jpg'
 

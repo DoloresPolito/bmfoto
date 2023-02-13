@@ -41,7 +41,7 @@ const Tabs = ({ mode }) => {
           >
             SESIONES
           </Link>
-          <RouterLink className="nav-item" to="/fotos" style={{color:"grey"}}>
+          <RouterLink className="nav-item" to="/bmfoto/fotos" style={{color:"grey"}}>
             GALERIA
           </RouterLink>
           <Link
@@ -71,7 +71,7 @@ const Tabs = ({ mode }) => {
       console.log("2")
       return (
         <TabsBox mode={mode}>
-          <RouterLink className="nav-item" to="/">
+          <RouterLink className="nav-item" to="/bmfoto">
             <p style={{ marginLeft:"1150px"}}>HOME</p>
           </RouterLink>
 
@@ -82,10 +82,10 @@ const Tabs = ({ mode }) => {
       console.log("3")
       return (
         <TabsBox mode={mode}>
-          <RouterLink className="nav-item" to="/">
+          <RouterLink className="nav-item" to="/bmfoto">
             HOME
           </RouterLink>
-          <RouterLink className="nav-item" to="/fotos">
+          <RouterLink className="nav-item" to="/bmfoto/fotos">
             GALERIA
           </RouterLink>
          
