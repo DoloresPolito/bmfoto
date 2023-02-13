@@ -7,7 +7,7 @@ const Tabs = ({ mode }) => {
   const path = window.location.pathname;
 
   {
-    if (path === "/") {
+    if (path === "/bmfoto") {
       return (
         <TabsBox mode={mode}>
           <Link
@@ -66,7 +66,7 @@ const Tabs = ({ mode }) => {
         </TabsBox>
       );
     }
-    else if(path === "/fotos"){
+    else if(path === "/bmfoto/fotos"){
       return (
         <TabsBox mode={mode}>
           <RouterLink className="nav-item" to="/">
